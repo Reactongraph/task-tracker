@@ -1,0 +1,41 @@
+.cardBoxNoTask, .cardBox {
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 200px;
+  position: absolute;
+  top: 60%;
+  right: 45%;
+  background-color: white;
+  padding-top: 0px; 
+}
+.close-modal {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+}
+.spanNewTask {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.close_x {
+  cursor: pointer;
+}
+.btn {
+  width: 181px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+.taskName {
+  width: 181px;
+  height: 32px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+.cardBox {
+    top: 85px;
+    right: 20%;
+  }
+}

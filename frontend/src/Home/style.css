@@ -1,0 +1,302 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background: white;
+  border-bottom: 1px solid black;
+}
+
+.navbar {
+  width: 100%;
+  /* height: 60px; */
+  background: white;
+  border-bottom: 1px solid rgb(226, 207, 207);
+  box-shadow: 0 2px 8px -3px grey;
+}
+
+.navbarData {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+}
+.fa_icon {
+  cursor: pointer;
+}
+.fa-edit {
+  margin-right: 5px;
+}
+.navbar1 {
+  display: flex;
+  gap: 10px;
+}
+.saveButton {
+  border-radius: 5px;
+  width: 50px;
+  height: 25px;
+  background-color: #5285EC ;
+}
+.ul {
+  font-size: 20px;
+  color: gray;
+}
+.avatar {
+  margin-top: 5px;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.inputField{
+  margin-left: 10px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 10px 10px 10px 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardItem {
+  max-width: 350px;
+  width: 100%;
+  height: 145px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.tasks {
+  margin-right: auto;
+  margin-right: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-top: 5px;
+  width: 100;
+  max-width: 85%;
+  margin-left: auto;
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.img {
+  width: 100px;
+  height: 150px;
+}
+
+.span {
+  font-size: xxx-large;
+  color: #5285EC ;
+}
+
+.newTask {
+  margin-top: 10px;
+}
+
+.p {
+  margin: 22px;
+}
+
+.search {
+  height: 35px;
+  border-radius: 10px;
+  padding-left: 25px;
+}
+
+.li {
+  margin-bottom: 5px;
+}
+.xyz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.editimg {
+  width: 45px;
+}
+.searchTask {
+  height: 35px;
+  border-radius: 10px;
+  margin-left: 15px;
+  color: white;
+  background-color: #5285EC;
+  border-color: #5285EC;
+  cursor: pointer;
+}
+
+.check {
+  height: 100% !important;
+  width: 85%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  border-radius: 7px;
+  margin-left: 35px;
+  height: 180px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.lableText {
+  margin-bottom: 25px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup-box {
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 200px;
+  position: absolute;
+  top: 70%;
+  right: 44%;
+  background-color: white;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+.span1 {
+ margin-top: 22px;
+}
+.p {
+  font-size: 26px;
+  color: gray;
+  margin: 0px;
+}
+.completed{
+  color: #00000082;
+}
+.false {
+  color: #5285EC;
+}
+.h3 {
+  font-size: 25px;
+  color: gray;
+  margin: 0px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.abcd {
+  font-size: 20px;
+}
+.fa-search {
+  position: absolute;
+  right: 285px;
+  top: 9px;
+  cursor: pointer;
+}
+.newTask {
+  position: relative;
+  margin-top: 10px;
+}
+.logout{
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .cardItem {
+    width: 95%;
+    max-width: 95%;
+    border-radius: 0px !important;
+  }
+  .tasks {
+    justify-content: center;
+    flex-wrap: wrap !important;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .check {
+    width: 90%;
+    margin-top: 15px;
+  }
+  .search {
+    width: 100%;
+  }
+  .searchTask {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    height: 44px;
+  }
+  .h3 {
+    font-size: 25px;
+    color: gray;
+    margin: 0px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  .navbarData {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-top: 3px;
+  }
+  .navbar1 {
+    display: flex;
+    gap: 10px;
+    padding: 4px;
+  }
+  .logout {
+    padding: 4px;
+    cursor: pointer;
+  }
+  .p {
+    font-size: 26px;
+    color: gray;
+    margin: 0px;
+  }
+  .span1 {
+    color: gray;
+    font-weight: 400;
+    margin-top: 18px;
+  }
+  .span {
+    font-size: 70px;
+    color: #5285EC ;
+  }
+  .card {
+    margin-top: 10px !important;
+    margin: 0px;
+  }
+  .tasks {
+    margin: 0 !important;
+    max-width: 97%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .search {
+    font-size: 22px;
+    padding: 25px 42px;
+  }
+  .fa-search {
+    position: absolute;
+    left: 13px;
+    top: 19px;
+    font-size: 19px;
+  }
+  .newTask {
+    position: relative;
+  }
+  .lableText {
+    font-size: 25px;
+  }
+  .ul {
+    font-size: 20px;
+    color: gray;
+  }
+}
+
+input[type="search"]::-webkit-search-cancel-button{
+  display: none;   
+}
